@@ -1,6 +1,6 @@
 {
   "name": "ldapauth-fork",
-  "version": "2.5.2",
+  "version": "3.0.0-pre",
   "main": "./lib/ldapauth.js",
   "description": "Authenticate against an LDAP server",
   "author": "Vesa Poikajärvi <vesa.poikajarvi@iki.fi>",
@@ -22,5 +22,8 @@
     "bcryptjs": "2.3.0",
     "ldapjs": "1.0.0",
     "lru-cache": "3.2.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.chemaxon.com/"
   }
 }
